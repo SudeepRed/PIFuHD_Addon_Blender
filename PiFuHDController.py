@@ -7,5 +7,8 @@ def cwd_sample_images():
 def cwd_lightWeightPoseEstimation():
     os.chdir('lightweight-human-pose-estimation.pytorch/')
     print(os.getcwd())
+def cropImageMoule():
+    os.chdir('lightweight-human-pose-estimation.pytorch/')
+    
 print(os.getcwd())
 cwd_sample_images()
