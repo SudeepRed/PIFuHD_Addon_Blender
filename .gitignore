@@ -6,3 +6,8 @@ pifuhd/checkpoints/pifuhd.pt
 *.jpg
 *.jpg
 *.txt
+*.jpg
+*.txt
+*.png
+*.obj
+*.txt
