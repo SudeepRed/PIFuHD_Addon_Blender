@@ -1,12 +1,3 @@
-#version 330 core
-
-layout (location = 0) in vec2 aPos;
-layout (location = 1) in vec2 aTexCoord;
-
-out vec2 TexCoord;
-
-void main()
-{
-    gl_Position = vec4(aPos.x, aPos.y, 0.0, 1.0);
-    TexCoord = aTexCoord;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:37a179343a0122444990505950d9299179ba52a39059169590b970984621a0a2
+size 219

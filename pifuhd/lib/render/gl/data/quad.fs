@@ -1,12 +1,3 @@
-#version 330 core
-
-out vec4 FragColor;
-
-in vec2 TexCoord;
-
-uniform sampler2D screenTexture;
-
-void main()
-{
-    FragColor = texture(screenTexture, TexCoord);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:00dfea9619763f7e92711f405fc98193b77c67a802c121b7bcd2c5838456c4ae
+size 169

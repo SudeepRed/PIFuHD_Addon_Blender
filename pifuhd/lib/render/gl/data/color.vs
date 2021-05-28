@@ -1,17 +1,3 @@
-#version 330 core
-
-layout (location = 0) in vec3 a_Position;
-layout (location = 1) in vec3 a_Color;
-
-out vec3 CamNormal;
-out vec3 CamPos;
-out vec3 Color;
-
-uniform mat4 ModelMat;
-uniform mat4 PerspMat;
-
-void main()
-{
-	gl_Position = PerspMat * ModelMat * vec4(a_Position, 1.0);
-    Color = a_Color;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1360ecae79f014b6a1bf5432ca8cbe083ac2fb07d26cb9aecbe4071ed77ea3b5
+size 314

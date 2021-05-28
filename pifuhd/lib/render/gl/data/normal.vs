@@ -1,15 +1,3 @@
-#version 330
-
-layout (location = 0) in vec3 Position;
-layout (location = 1) in vec3 Normal;
-
-out vec3 CamNormal;
-
-uniform mat4 ModelMat;
-uniform mat4 PerspMat;
-
-void main()
-{
-	gl_Position = PerspMat * ModelMat * vec4(Position, 1.0);
-	CamNormal = (ModelMat * vec4(Normal, 0.0)).xyz;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f71d979b1a43ed32b883c1563fd88c3b6d1c7e58dfa37a1a992c87414faf926
+size 299
