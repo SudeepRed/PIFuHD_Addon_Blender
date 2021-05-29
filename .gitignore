@@ -15,3 +15,5 @@ pifuhd/checkpoints/pifuhd.pt
 *.pyc
 *.blend
 *.blend1
+*.pyc
+*.pyc
