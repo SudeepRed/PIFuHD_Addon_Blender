@@ -11,3 +11,4 @@ pifuhd/checkpoints/pifuhd.pt
 *.png
 *.obj
 *.txt
+*.pyc
