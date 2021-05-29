@@ -12,3 +12,6 @@ pifuhd/checkpoints/pifuhd.pt
 *.obj
 *.txt
 *.pyc
+*.pyc
+*.blend
+*.blend1
